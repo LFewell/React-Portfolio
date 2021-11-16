@@ -1,8 +1,13 @@
+import Intro from "./components/intro/intro";
+import Topbar from "./components/topbar/topbar";
 
 function App() {
   return (
     <div className="App">
-    CatJAM
+      <Topbar />
+      <div className="sections">
+        <Intro/>
+      </div>
     </div>
   );
 }
